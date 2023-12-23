@@ -1,0 +1,5 @@
+rule compile
+  command = g++ -c $in -o $out
+
+rule link
+  command = g++ $in -o $out
